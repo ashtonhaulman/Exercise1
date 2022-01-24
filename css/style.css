@@ -1,0 +1,87 @@
+.wrapper {
+background-color: lightgray;
+width:100%;
+display: inline-block;
+}
+
+.small-wrapper {
+    width: calc(100%); 
+    background-color: transparent;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.wrapper-C {
+    width: calc(100% / 4);   
+    background-color: lightgray;
+    display: flex;
+}
+
+.A, .A div {    
+    display: flex;
+    flex-direction: row;
+    margin:10px;
+    padding:10px;
+    justify-content: left;
+}
+
+.B, .B div {
+    display: flex;
+    flex-direction: row;
+    margin:10px;
+    padding:10px;
+    justify-content: center;
+}
+
+.C, .C div {
+    display: flex;
+    flex-direction: row;
+    margin:10px;
+    padding:10px;
+    justify-content: center;
+}
+
+.D, .D div {
+    display: flex;
+    flex-direction: row;
+    margin:10px;
+    padding:10px;    
+    justify-content: right;
+}
+
+.E, .E div {
+    display: flex;
+    flex-direction: row;
+    margin:10px;
+    padding:10px;
+    justify-content: space-between;
+}
+
+.F, .F div {
+    display: flex;
+    flex-direction: row;
+    margin:10px;
+    padding:10px;
+    justify-content: space-evenly;
+}
+
+.G, .G div {
+    display: flex;
+    flex-direction: row;
+    margin:10px;
+    padding:10px;
+    justify-content: center;
+}
+.A div, .B div, .C div, .D div, .E div, .F div {
+    background-color:white;
+    height: 40px;
+    width:15px;
+    justify-content: center;
+}
+
+.G div {
+    background-color:white;
+    height: 40px;
+    width: calc(100% / 5);
+    justify-content: left;    
+}
